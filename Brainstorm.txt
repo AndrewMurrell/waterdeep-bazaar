@@ -1,0 +1,79 @@
+Waterdeep Bazaar - https://github.com/AndrewMurrell/waterdeep-bazaar
+
+1) What features should it have (brainstorm)
+    - What kind of data will the application have?
+    Maintain Full Immutable Inventories for all Vendors.
+    Bazaar has Shops
+    Shops have Vendors
+    Shops have Specializations
+    Shops have Items
+    Items have Categories
+    Items have Rarities
+    Items have Descriptions
+    Items have Prices
+    Items have Weights
+    Items have Sizes. (Weapons and Armor for example).
+    Vendors have Repute
+    Vendors have Skills
+    Vendors have Styles (Favored Interaction Styles)
+    Vendors have Languages
+    Bazaar has Holidays
+    Bazaar has Antagonists
+    Antangonists have Frequency
+    Antangonists have Impact
+    Bazaar has Guards
+    Guards have Competence
+    Bazaar has Guilds
+    Guilds have Specializations
+    Guilds have Influence (driving forces on the market)
+    Vendors have GuildMembership
+    Items have Hidden (status)
+    Shops have map elements? They are buildings/stands
+    Vendors have Descriptions
+
+Features:
+    Generate a bazaar from a subset of options from a user.
+    Present a list of settings to the user on a selection screen.
+    Generate a sample map that could represent the bazaar.
+    Generate names/personalities of store owners and the content specializations of their shops.
+    Generate antagonistic forces. Example: Local Thief guilds who interfere with day to day business.
+    Weapons, Armor, Potions, Scrolls, Clothes, Food, Animals, Flea Market (trinkets and oddities), & other Custom ones.
+    Allow the user to input custom items or data (Data Sources for Items & Import your own Data Source).
+    Generate inventories (the flea market cannot be bought/sold out).
+    Generate local law enforcement and taxes. This could include noble family influence on markets.
+    Holidays and Sales.
+    Vendor Repute.
+    DCs for Vendor Intimidation, Persuasion, etc.
+    Item Tiers: Mundane, Masterwork, Common/Uncommon Magical, Rare Magical, Very Rare Magical.
+    Rules for characters wanting custom orders to be handled.
+    Available Item Upgrades/Recharging/etc (whatever 5e has rules for).
+    User should be able to submit a bazaar that has already been made and then edit it.
+    Be able to either keep a static bazaar or generate a random bazaar based on constraints (and save it or leave it).
+    Rarity of items available should be influenced by the size of the market and the influence of the vendors and the likihood of antagonistic forces (Stretch Goal)
+    User should be able to customize type of currency utilized in Bazaar.
+
+2) What features are required for a minimal viable product?
+1a. Present user selection screen.
+1b. Populate selection screen.
+1c. Allow submission of the selections.
+1d. Multiple shops should be created based on user selection.
+1e. Items added to shops based on rarity and item/shop category settings.
+1f. Number of Items listed for sale should be affected by a weighted calculation of rarity.
+1g. Category of item available should be tied to the specialization of the shop.
+1h. Prices just use defaults from DMG, of what is in the open gaming license (OGL & SRD).
+1i. Shops and Available Items are then displayed to the user.
+
+3) Logistics:
+    - What should the License be?
+   I vote for AGPL. I've no knowledge of Licenses, so sure. AGPL says that people can host their own servers for it and can modify the code however they want as long as they also share the right to do so with their users (and give them the modified code) as well as attributing where they got the code.
+    - Where is the code hosted?
+Probably Github. +1
+    - How should we store the data?
+    We should have a sample database available for download, but I don't know where to host it.
+SQL? We should figure out what the data looks like first.  Jumping to a DB might be unneeded if it's mostly aggregating static data. Flat files serve that purpose well.
+    - When should a MVP be due?
+   Two weeks from now? Reasonable, but I'll probably be in Maryland soon. Should be able to work on it there no problem though.
+
+
+
+
